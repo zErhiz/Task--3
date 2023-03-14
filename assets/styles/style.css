@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5;
+}
+.navegador {
+  display: flex;
+  background-color: blue;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+}
+.primero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.title-index {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	 height: 20vh;
+	 width: 100%;
+	 margin-top: 1rem;
+	 flex-direction: column;
+	 color: rgb(0, 0, 0);
+}
+
+.titulo1
+{
+  background-color: rgba(4, 14, 14, 0.368);
+  color: white;
+  border-radius: 2vh;
+  border: 1px solid red;
+}
+
+.bienvenido
+{
+  background-color: rgba(4, 14, 14, 0.368);
+  color: white;
+  border: 1px solid red;
+}
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: black;
+  z-index: 1;
+ }
+ 
+ a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+ }
+ 
+ a:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #39bda7;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+ }
+ 
+ a:hover {
+  color: #ffffff;
+  border: 1px solid #39bda7;
+ }
+ 
+ a:hover:before {
+  top: -35%;
+  background-color: #39bda7;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+ }
+ 
+ a:hover:after {
+  top: -45%;
+  background-color: #39bda7;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+ }
+
+.parrafos {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-about {
+  width: 30rem;
+  
+}
+.section-about {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: flex-start;
+  
+  gap: 10rem;
+}
+
+.boton {
+  display: none;
+}
+.bienvenido {
+  display: flex;
+  justify-content: center;
+}
+.imagenindexx {
+  display: flex;
+  justify-content: center;
+}
+.parrafosindex {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 10rem;
+  border: 2px solid red;
+  background-color: rgba(3, 6, 6, 0.658);
+  width: 34.5%;
+  color: white;
+}
+.imagenindexx1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+  margin-right: -18rem;
+}
+.imagenindex2 {
+  border: 1rem groove black;
+  padding: 0vh;
+}
+.imagenindex1 {
+  border: 1rem groove black;
+  padding: 0vh;
+}
+.bienvenido {
+  display: flex;
+  justify-content: center;
+}
+.bienvenido2 {
+  display: flex;
+  justify-content: center;
+}
+.parrafoyimagen {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  
+}
+.parrafoyimagen2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.parrafoyimagen3 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  
+}
+.bienvenido3 {
+  display: flex;
+  justify-content: center;
+}
+.imagencontact {
+  display: flex;
+  justify-content: center;
+}
+.parrafoscontact {
+  display: flex;
+  justify-content: center;
+}
+.mailytel {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.title-about
+{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	 height: 20vh;
+	 width: 100%;
+	 margin-top: 1rem;
+	 flex-direction: column;
+}
+.bienvenido2
+{
+  background-color: rgba(4, 14, 14, 0.368);
+  color: white;
+  border-radius: 2vh;
+  border: 1px solid red;
+}
+.title-contact
+{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	 height: 20vh;
+	 width: 100%;
+	 margin-top: 1rem;
+	 flex-direction: column;
+}
+.bienvenido3
+{
+ 
+  background-color: rgba(4, 14, 14, 0.368);
+  color: white;
+  border-radius: 2vh;
+  border: 1px solid red;
+
+}
+.title-schedule
+{
+display: flex;
+justify-content: center;
+}
+.bienvenidoschedule
+{
+  display: flex;
+  justify-content: center;
+}
+table, tr, td, th
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40rem;
+  height: 10vh;
+}
+table
+{
+  text-align: center;
+}
+thead
+{
+  background-color: rgba(0, 0, 0, 0.475);
+  color: white;
+}
+tbody
+{
+  background-color: rgba(0, 255, 255, 0.094);
+}
+.tabla
+{
+  display: flex;
+  justify-content: center;
+}
+.bienvenidosbenefits
+{
+  display: flex;
+  justify-content: center;
+}
+ul
+{
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+ol
+{
+  list-style-type: lower-alpha;
+  margin-left: 2rem;
+}
+.sectionbenefits1
+{
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-between;
+  
+  
+}
+.sectionbenefits2
+{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.imagenfit1
+{
+  width: 40rem;
+}
+
+.imagenfit2
+{
+  width: 40rem;
+}
+.seccion1
+{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5rem;
+}
+.textoo1
+{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+ 
+  justify-content: center;
+}
+.textoo
+{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  
+}
+.bienvenido4
+{
+    background-color: rgba(4, 14, 14, 0.368);
+  color: white;
+  border-radius: 2vh;
+  border: 1px solid red;
+}
